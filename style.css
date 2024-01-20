@@ -33,7 +33,7 @@
   margin-right: auto;
   /*   align-items: center; */
   /*   justify-content: center; */
-  width: 30vw;
+  width: 10vw;
   border-radius: 50%;
   animation: spinnyboi 10s linear infinite;
   filter: hue-rotate(360deg);
@@ -41,7 +41,7 @@
 }
 
 .icon-pfp:hover {
-  border-radius: 25%;
+  border-radius: 35%;
 }
 
 @keyframes spinnyboi {
