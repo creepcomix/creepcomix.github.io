@@ -1,7 +1,7 @@
 .webtitle {
   font-family: sans-serif;
   color: white;
-  font-size: 5vw;
+  font-size: 3vw;
   text-shadow: 0px 0px 3.5px #fff;
   font-weight: 0px;
   display: flex;
@@ -28,11 +28,11 @@
 }
 
 .icon-pfp {
-  display: flex;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-    align-items: center;
-    justify-content: center;
+  /*   align-items: center; */
+  /*   justify-content: center; */
   width: 10vw;
   border-radius: 50%;
   animation: spinnyboi 10s linear infinite;
@@ -41,7 +41,7 @@
 }
 
 .icon-pfp:hover {
-  border-radius: 35%;
+  border-radius: 25%;
 }
 
 @keyframes spinnyboi {
@@ -64,28 +64,32 @@ h2,
 h3,
 h4 {
   font-family: sans-serif;
-  font-size: 1vw;
-  color: #159957;
-  font-weight: normal;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+    font-size: 1.5vw;
+    color: #159957;
+    font-weight: normal;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 #whoContent {
   font-family: sans-serif;
-  font-size: .8vw;
+  font-size: 1vw;
   color: #606c71;
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: flex-start;
+  order: 1;
 }
 
 .current-projects {
   font-family: sans-serif;
-  font-size: 2.5vw;
-  color: #606c71;
+    font-size: 1vw;
+    color: #606c71;
 }
 
 fieldset {
@@ -110,8 +114,8 @@ input {
 
 button {
   border-radius: 5px;
-  font-size: 2vw;
-  transition: background-color 0.3s;
+    font-size: .6vw;
+    transition: background-color 0.3s;
 }
 
 button:hover {
@@ -121,10 +125,10 @@ button:hover {
 .how-games,
 p {
   font-family: sans-serif;
-  color: #606c71;
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 0.1vw;
+    color: #606c71;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1vw;
 }
 
 .privacy-policy,
@@ -147,10 +151,10 @@ hr {
 .bottom,
 footer {
   font-family: sans-serif;
-  font-style: italic;
-  font-size: 2.3vw;
-  font-family: sans-serif;
-  color: #606c71;
+    font-style: italic;
+    font-size: .8vw;
+    font-family: sans-serif;
+    color: #606c71;
 }
 .bottom {
   display: flex;
