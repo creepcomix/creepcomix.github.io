@@ -19,11 +19,11 @@
   justify-content: center;
   margin-bottom: 10px;
   opacity: 1;
-  transition: opacity 3s;
+  transition: opacity 2s;
 }
 
 .top-part:hover {
-  opacity: 0;
+  opacity: .8;
   border: 10px;
 }
 
