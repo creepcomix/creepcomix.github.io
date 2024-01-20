@@ -130,7 +130,9 @@ p {
     flex-wrap: wrap;
     font-size: 1vw;
 }
-
+#howGamesContent {
+    font-size: 1vw;
+}
 .privacy-policy,
 p {
     font-family: sans-serif;
