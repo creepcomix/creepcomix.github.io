@@ -28,11 +28,11 @@
 }
 
 .icon-pfp {
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
-  /*   align-items: center; */
-  /*   justify-content: center; */
+    align-items: center;
+    justify-content: center;
   width: 10vw;
   border-radius: 50%;
   animation: spinnyboi 10s linear infinite;
