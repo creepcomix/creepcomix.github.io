@@ -16,9 +16,9 @@ document.getElementById("showButton").addEventListener("click", function () {
 });
 
 function darkMode() {
-  document.body.style.backgroundColor = black;
+  document.body.style.background = black;
 }
 
 function lightMode() {
-  document.body.style.backgroundColor = white;
+  document.body.style.background = white;
 }
